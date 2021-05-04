@@ -3,8 +3,10 @@ package main
 import (
 	"log"
 	"net/http"
-	//jinzhugorm sql
+
+	//jinzhugorm
 	"github.com/jinzhu/gorm"
+	//jinzhu mysql
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/labstack/echo"
 )
